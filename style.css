@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Stick+No+Bills:wght@800&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #03045e;
+}
+
+#img-div {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Stick No Bills', sans-serif;
+    color: #03045e;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(81deg, #0077b6, #48cae4, #48cae4);
+    align-items: center;
+    border-radius: 10px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+hr {
+    color: #ade8f4;
+    width: 80%;
+    height: 3px;
+    background-color: #ade8f4;
+}
+
+#tribute-info {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+blockquote{
+  font-size: 1.4em;
+  width: 60%;
+  font-family: Open Sans;
+  font-style: italic;
+  color: #48cae4;
+  padding: 1.2em 30px 1.2em 75px;
+  border-left: 8px solid #48cae4 ;
+  line-height: 1.6;
+  position: relative;
+  background: #EDEDED;
+}
+
+blockquote::before{
+  font-family: Arial;
+  content: "\201C";
+  color: #48cae4;
+  font-size: 4em;
+  position: absolute;
+  left: 10px;
+  top: -10px;
+}
+
+blockquote span{
+  display: block;
+  color: #03045e;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+p {
+    padding-left: 7px;
+}
